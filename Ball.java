@@ -31,12 +31,12 @@ public class Ball
             x += vx;
             y += vy;
         }
-        if ((x + DIAMETER) > FRAME_WIDTH)
+        if ((x + DIAMETER + 5) > FRAME_WIDTH)
         {
             x -= 1;
             vx = -1;
         }
-        if ((y + DIAMETER + 20) > FRAME_HEIGHT)
+        if ((y + DIAMETER + 40) > FRAME_HEIGHT)
         {
             y -= 1;
             vy = -1;
